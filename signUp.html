@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Peek || Sign up</title>
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="index_styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/572e9e6826.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header -->
+    <h1 class="header">Coin Peek</h1>
+    <!-- Main Content -->
+    <main class="container flexCol">
+        <form id="signUpForm" class="box flexCol">
+
+            <!-- Form || Labels And Inputs -->
+            <h1 id="signUpHeading">Sign up</h1>
+            <label for="name">Full Name</label>
+            <input type="text" name="name" id="fullName" />
+            <p  id="noName" class="hidden">Please enter your name!</p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+            <p id="noEmail" class="hidden">Please enter an email!</p>
+            <p id="registeredEmail" class="hidden">Email already registered!</p>
+            <p id="invalidEmail" class="hidden">Enter a valid email!</p>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" />
+            <label for="password2">Confirm Password</label>
+            <input type="password" name="pasword2" id="password2" />
+            <p id="noPassword" class="hidden">Please enter a password!</p>
+            <p id="incorrectPass"class="hidden">Passoword do not match!</p>
+            <p id="invalidPass" class="hidden">Invalid password! (Must contain 6-10 characters)</p>
+
+            <!-- button's || Lower Box -->
+            <br>
+            <button type="submit" id="signUpBTN" class="btn" >Sign up</button>
+            <br>
+            <label for="login" class="btnLabel">Already a User?</label>
+            <button type="button" class="btn" id="loginBTN">Log in</button>
+                    
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer class="flexRow">
+        <div class="copy">
+            <i class="far fa-copyright fa-sm"></i> &nbsp; 
+            <span>Made in Sep 2021</span>
+        </div>
+        <div class="insta">
+            <i class="fab fa-instagram fa-sm"> </i> &nbsp; 
+                <span>
+                    <a href="https://www.instagram.com/miteshdarda/">
+                        @miteshdarda
+                    </a>
+                </span> &nbsp;
+        </div>
+    </footer>    
+    <script src="signUp.js"></script>
+</body>
+</html>

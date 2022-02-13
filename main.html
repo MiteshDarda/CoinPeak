@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Peek</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/572e9e6826.js" crossorigin="anonymous"></script>
+</head>
+<body class="flexCol">
+    <!-- header -->
+    <header class="flexRow">
+        <div class="ph"></div>
+        <h1>
+            Coin Peek
+        </h1>
+        <div class="flexRow proCon">
+            <i class="fas fa-user-alt fa-2x profile"></i>
+        </div>
+    </header>
+    <!-- Trending -->
+    <div class="trending flexRow">
+        <h1>Trending</h1>
+        <div class="flexRow tc">
+            <div id="one"></div>
+            <div id="two"></div>
+            <div id="three"></div>
+        </div>
+    </div>
+    <!-- Search -->
+    <input  id="input" type="text">
+    <button id="searchBtn" class="btn">
+                Search
+    </button>
+    <!-- Table -->
+        <table id="table" class="tbl flexCol">
+            <tr>
+                <th id="crypto">
+                    Crypto
+                </th>
+                <th id="price">
+                    Price 
+                    <span> (USD)</span>
+                </th>
+                <th id="change">
+                    Change in %
+                    <span>(24h)</span>
+                </th>
+                <th id="symbol">
+                    Symbol
+                </th>
+            </tr>
+    </table>
+    <!-- Logout modal -->
+    <div class="modal hidden">
+        <h1 id="username"></h1>
+        <button id="logoutBtn">
+            Log out &nbsp; 
+            <i class="fas fa-sign-out-alt"></i>
+        </button>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+/* Container */
+.container {
+  background-color: var(--bodyClrDark);
+  border: black 2px solid;
+  height: 80vh;
+}
+
+/* Box */
+.box {
+  font-weight: 600;
+  color: black;
+  background-color: var(--bodyClrLight);
+  border: black 2px solid;
+  height: 75vh;
+  max-height: 40rem;
+  width: 60vw;
+  max-width: 30rem;
+  border-radius: 2.5rem;
+}
+
+.lowerBox {
+  width: 100%;
+  margin-top: 10%;
+}
+
+/* Input */
+input {
+  border: none;
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 0.75px;
+  height: 1.5rem;
+  margin-bottom: 0.8rem;
+  width: 70%;
+  box-shadow: 0.3rem 0.3rem 0.5rem black;
+  transition: all 0.2s ease-in-out;
+  padding-left: 1rem;
+}
+
+input:focus {
+  padding-left: 1rem;
+  text-align: left;
+  outline: none;
+  box-shadow: 0.5rem 0.5rem 0.9rem var(--bodyClrDark);
+}
+
+/* Label & Btn Label */
+label {
+  margin-bottom: 0.5rem;
+  margin-left: 15%;
+  align-self: flex-start;
+}
+
+.btnLabel {
+  margin-left: 0;
+  align-self: center;
+  font-size: 0.9rem;
+  color: var(--secondary);
+}
+
+/* Others */
+a {
+  text-decoration: none;
+  width: 100%;
+  color: white;
+}
+
+h1 {
+  height: 4rem;
+  color: black;
+  letter-spacing: 1px;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 0.85em;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.invalid {
+  margin-left: 15%;
+  margin-bottom: 1%;
+  align-self: flex-start;
+  color: red;
+}
+.invalidInput {
+  border: 1px red solid;
+  box-shadow: 0.1rem 0.1rem 0.2rem red;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Peek || Login</title>
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="index_styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/572e9e6826.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <h1 class="header">Coin Peek</h1>
+    <!-- Main Content -->
+    <main class="container flexCol">
+        <form class="box flexCol" id="form">
+            <h1 id="loginHead">Login</h1>
+            <label for="email">Email</label>
+            <input type="email"  id="email">
+            <p id="wrongEmail" class="hidden">Email not registered!</p>
+            <p id="noEmail" class="hidden">Please enter your email</p>
+            <label for="password">Password</label>
+            <input type="password" id="password">
+            <p id="noPassword" class="hidden">Please enter your Password</p>
+            <p id="wrongPassword" class="hidden">Incorrect Password!</p>
+            <!-- Lower box -->
+            <div class="lowerBox flexCol">
+                <button type="submit" id="loginBTN" class="btn">Log in</button>
+                <br><br>
+                <label for="signUpBTN" class="btnLabel">New User ?</label>
+                <button  type="button" id="signUpBTN" class="btn">Sign up</button>
+
+            </div>
+        </form>
+    </main>
+    <!-- Footer -->
+    <footer class="flexRow">
+        <div class="copy">
+            <i class="far fa-copyright fa-sm"></i> &nbsp; 
+            <span>Made in Sep 2021</span>
+        </div>
+        <div class="insta">
+            <i class="fab fa-instagram fa-sm"> </i> &nbsp; 
+                <span>
+                    <a href="https://www.instagram.com/miteshdarda/">
+                        @miteshdarda
+                    </a>
+                </span> &nbsp;
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
